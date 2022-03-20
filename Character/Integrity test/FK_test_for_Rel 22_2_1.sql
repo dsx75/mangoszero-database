@@ -101,7 +101,7 @@ ALTER TABLE `auction`
 /* Character_Battleground_Data.GUID --> ??? */
 
 
-/* Character_Battleground_Data.Instance_ID --> ??? */
+/* Character_Battleground_Data.Instance_ID --> Instance.ID ??? */
 
 
 /* Character_Battleground_Data.Team --> ??? */
@@ -137,7 +137,7 @@ ALTER TABLE `auction`
 /* Character_Instance.GUID --> Characters.GUID */
 
 
-/* Character_Instance.Instance --> ??? */
+/* Character_Instance.Instance --> Instance.ID ??? */
 
 
 /* Character_Inventory.GUID --> Characters.GUID */
@@ -230,7 +230,7 @@ ALTER TABLE `auction`
 /* Corpse.Map --> ??? */
 
 
-/* Corpse.Instance --> ??? */
+/* Corpse.Instance --> Instance.ID ??? */
 
 
 /* Creature_Respawn.GUID --> Creature ID ??? */
@@ -242,7 +242,137 @@ ALTER TABLE `auction`
 /* Gameobject_Respawn.GUID --> Gameobject ID ??? */
 
 
-/* Gameobject_Respawn.Instance --> ??? */
+/* Gameobject_Respawn.Instance --> Instance.ID ??? */
 
 
+/* Game_Event_Status.Event --> ??? */
+
+
+/* Groups.LeaderGUID --> Characters.GUID */
+
+
+/* Groups.MainTank --> Characters.GUID */
+
+
+/* Groups.MainAssistant --> Characters.GUID */
+
+
+/* Groups.LooterGUID --> Characters.GUID */
+
+
+/* Groups.Icon1-8 --> ??? */
+
+
+/* Group_Instance.LeaderGUID --> Characters.GUID */
+
+
+/* Group_Instance.Instance --> Instance.ID ??? */
+
+
+/* Group_Member.GroupID --> Groups.GroupID */
+
+
+/* Group_Member.MemberGUID --> Characters.GUID */
+
+
+/* Guild.LeaderGUID --> Characters.GUID */
+
+
+/* Guild_EventLog.GuildID --> Guild.GuildID */
+
+
+/* Guild_EventLog.PlayerGUID1 --> Characters.GUID */
+
+
+/* Guild_EventLog.PlayerGUID2 --> Characters.GUID */
+
+
+/* Guild_EventLog.NewRank --> Guild_Rank.RID */
+
+
+/* Guild_Member.GuildID --> Guild.GuildID */
+
+
+/* Guild_Member.GUID --> Characters.GUID */
+
+
+/* Guild_Member.Rank --> Guild_Rank.RID */
+
+
+/* Guild_Rank.GuildID --> Guild.GuildID */
+
+
+/* Instance.Map --> ??? */
+
+
+/* Instance_Reset.MapID --> ??? */
+
+
+/* Item_Instance.Owner_GUID --> Characters.GUID */
+
+
+/* Item_Loot.Owner_GUID --> Characters.GUID */
+
+
+/* Item_Loot.ItemID --> ??? */
+
+
+/* Mail.MailTemplateID --> ??? */
+
+
+/* Mail.Sender --> Characters.GUID */
+
+
+/* Mail.Receiver --> Characters.GUID */
+
+
+/* Mail.ItemTextID --> Item_Text.ID */
+
+
+/* Mail_Items.Mail_ID --> Mail.ID */
+
+
+/* Mail_Items.Item_GUID --> ??? */
+
+
+/* Mail_Items.Item_Template --> ??? */
+
+
+/* Mail_Items.Receiver --> Characters.GUID    Why does this field even exist? There's Receiver in the main Mail table. */
+
+
+/* Petition.OwnerGUID --> Characters.GUID */
+
+
+/* Petition.PetitionGUID --> ??? */
+
+
+/* Petition_Sign.OwnerGUID --> Characters.GUID */
+
+
+/* Petition_Sign.PetitionGUID --> ??? */
+
+
+/* Petition_Sign.PlayerGUID --> Characters.GUID */
+
+
+/* Petition_Sign.Player_Account --> RealmDB.Account.ID ??? */
+
+
+/* Pet_Aura.GUID --> Characters.GUID ??? */
+
+
+/* Pet_Aura.Caster_GUID --> Characters.GUID or Creature ??? */
+
+
+/* Pet_Aura.Item_GUID --> ??? */
+
+
+/* Pet_Aura.Spell --> ??? */
+
+
+/* Pet_Spell.GUID --> Character_Pet.ID */
+
+
+/* Pet_Spell.Spell --> ??? */
 
