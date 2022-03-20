@@ -98,6 +98,97 @@ ALTER TABLE `auction`
 /* Character_Aura.Spell --> ??? */
 
 
+/* Character_Battleground_Data.GUID --> ??? */
+
+
+/* Character_Battleground_Data.Instance_ID --> ??? */
+
+
+/* Character_Battleground_Data.Team --> ??? */
+
+
+/* Character_Battleground_Data.Join_Map --> ??? */
+
+
+/* Character_Gifts.GUID --> Characters.GUID */
+
+
+/* Character_Gifts.Item_GUID --> ??? */
+
+
+/* Character_Gifts.Entry --> Characters.GUID */
+
+
+/* Character_Homebind.GUID --> Characters.GUID */
+
+
+/* Character_Homebind.Map --> ??? */
+
+
+/* Character_Homebind.Zone --> ??? */
+
+
+/* Character_Honor_CP.GUID --> Characters.GUID */
+
+
+/* Character_Honor_CP.Victim --> Characters.GUID */
+
+
+/* Character_Instance.GUID --> Characters.GUID */
+
+
+/* Character_Instance.Instance --> ??? */
+
+
+/* Character_Inventory.GUID --> Characters.GUID */
+
+
+/* Character_Inventory.Bag --> ??? */
+
+
+/* Character_Inventory.Item --> ??? */
+
+
+/* Character_Inventory.Item_Template --> ??? */
+
+
+/* Character_Pet.Entry --> ??? */
+
+
+/* Character_Pet.Owner --> Characters.GUID */
+
+
+/* Character_Pet.ModelID --> ??? */
+
+
+/* Character_Pet.CreatedBySpell --> ??? */
+
+
+/* Character_Pet.TeachSpellData --> ??? Replace the longtext column with a separate table? */
+
+
+/* Character_QuestStatus.GUID --> Characters.GUID */
+
+
+/* Character_QuestStatus.Quest --> ??? */
+
+
+/* Character_Reputation.GUID --> Characters.GUID */
+
+
+/* Character_Reputation.Faction --> ??? */
+
+
+/* Character_Skills.GUID --> Characters.GUID */
+
+
+/* Character_Skills.Skill --> ??? */
+
+
+/* Character_Social.GUID --> Characters.GUID */
+
+
+/* Character_Social.Friend --> Characters.GUID */
 
 
 
