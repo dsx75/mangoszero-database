@@ -191,4 +191,58 @@ ALTER TABLE `auction`
 /* Character_Social.Friend --> Characters.GUID */
 
 
+/* Character_Spell.GUID --> Characters.GUID */
+
+
+/* Character_Spell.Spell --> ??? */
+
+
+/* Character_Spell_Cooldown.GUID --> Characters.GUID */
+
+
+/* Character_Spell_Cooldown.Spell --> ??? */
+
+
+/* Character_Spell_Cooldown.Item --> ??? */
+
+
+/* Character_Stats.GUID --> Characters.GUID */
+
+
+/* Character_Ticket.GUID --> Characters.GUID */
+
+
+/* Character_Tutorial.Account --> RealmDB.Account.ID ??? */
+
+
+/* Character_Whispers.To_GUID --> Characters.GUID */
+
+
+/* Character_Whispers.From_GUID --> Characters.GUID */
+
+
+/* Character_Whispers.Regarding_Ticket_ID --> Character_Ticket.Ticket_ID ??? */
+
+
+/* Corpse.Player --> Characters.GUID */
+
+
+/* Corpse.Map --> ??? */
+
+
+/* Corpse.Instance --> ??? */
+
+
+/* Creature_Respawn.GUID --> Creature ID ??? */
+
+
+/* Creature_Respawn.Instance --> ??? */
+
+
+/* Gameobject_Respawn.GUID --> Gameobject ID ??? */
+
+
+/* Gameobject_Respawn.Instance --> ??? */
+
+
 
